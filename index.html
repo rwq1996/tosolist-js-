@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body onload="load();">
+    <h1>TodoMVC</h1>
+    <div id="allContent" class="allContent">
+        <div id="input" class="input">
+            <input id="image" class="image" type="checkbox" />
+            <label for="image"></label>
+            <div id="inputContent" class="inputContent">
+                <input type="text" placeholder="What needs to be done ? " id="inputContents" class="inputContents" />
+            </div>
+        </div>
+
+        <div id="list" class="list">
+            <div id="ulContent" class="ulContent">
+                <div id="listDiv" class="listDiv">
+                </div>
+            </div>
+        </div>
+
+        <div id="divContent" class="divContent">
+            <span class="number" id="number"></span>
+            <span class="labelSpan" id="labelSpan"> item left </span>
+            <span class="all" id="all"> All </span>
+            <span class="active" id="active"> Active </span>
+            <span class="completed" id="completed"> Completed </span>
+            <span class="clear" id="clear"> Clear completed </span>
+        </div>
+    </div>
+</body>
+
+</html>
